@@ -1,6 +1,7 @@
 name: Run tests on staging
 on:
   pull_request_target:
+  workflow_dispatch:
 
 jobs:
   hello-world:
